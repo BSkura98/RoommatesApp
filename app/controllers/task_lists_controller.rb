@@ -8,6 +8,7 @@ class TaskListsController < ApplicationController
 
   # GET /task_lists/1 or /task_lists/1.json
   def show
+    @task = Task.new
   end
 
   # GET /task_lists/new

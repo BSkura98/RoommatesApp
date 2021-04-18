@@ -25,7 +25,7 @@ class TasksController < ApplicationController
     @task = @task_list.tasks.build(task_params)
 
     if @task.save
-      redirect_to([@task.task_list, @task], notice: 'Task was successfully created.')
+      redirect_to(@task.task_list)
     else
       render action: 'new'
     end
@@ -33,7 +33,7 @@ class TasksController < ApplicationController
 
   # PUT task_lists/1/tasks/1
   def update
-    if @task.update_attributes(task_params)
+    if @task.update(task_params)
       redirect_to([@task.task_list, @task], notice: 'Task was successfully updated.')
     else
       render action: 'edit'
