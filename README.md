@@ -1,24 +1,29 @@
-# README
+# RoommatesApp
+This is an application for roommates that allows you to manage your tasks.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Screenshots
+![Task lists](./img/task_lists.PNG)
 
-Things you may want to cover:
+![Task list](./img/task_list.PNG)
 
-* Ruby version
+## Technologies
+* Ruby On Rails
+* Ruby
+* HTML
+* Bootstrap
+* SQLite
 
-* System dependencies
+## Features
+* Create multiple task lists
+* Add new tasks
 
-* Configuration
+To-do list:
+* Delete tasks
+* Mark tasks complete
+* Login/Register
+* Assign tasks to users
+* Announcements
 
-* Database creation
+## Status
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Project is _in progress_
