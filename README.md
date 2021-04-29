@@ -1,6 +1,8 @@
 # RoommatesApp
 This is an application for roommates that allows you to manage your tasks.
 
+#### This app is in an early stage of development
+
 ## Screenshots
 ![Task lists](./img/task_lists.PNG)
 
